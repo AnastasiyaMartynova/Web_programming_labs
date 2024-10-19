@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My University</title>
+    <style>
+        body {
+            background-color: rgb(218, 126, 255);
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+        }
+        .animated-gif {
+            position: absolute;
+            width: 50px;
+            animation: moveGif 10s linear infinite;
+        }
+        @keyframes moveGif {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: calc(100% - 100px);
+            }
+            100% {
+                left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Мой университет</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная страница</a></li>
+            <li><a href="about.html">Обо мне</a></li>
+            <li><a href="group.html">Моя группа</a></li>
+            <li><a href="profession.html">Моя профессия</a></li>
+        </ul>
+    </nav>
+    <p>Здесь собрана информация о моем университете.</p>
+    <img class="animated-gif" src="https://media.tenor.com/5NNbKFdAm6wAAAAi/emoji-smiley.gif">
+
+    <p align="center" style="font-size: 30px;">Я учусь на 3 курсе на факультете информационных технологий в Московском университете имени С.Ю.Витте.</p>
+    <center>
+        <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_652e7310ac1eaf2192d9898c_652e7809e90008794d78a917/scale_1200">
+    </center>
+</body>
+</html>
